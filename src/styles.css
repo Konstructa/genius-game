@@ -10,7 +10,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(255, 224, 255);
+  background-color: rgb(32, 32, 32);
 }
 
 .genius {
@@ -21,13 +21,13 @@
   width: 55%;
   height: 80%;
   border: 1px solid #F3F3F3;
-  background-color: #F3F3F3;
+  background-color: black;
   border-radius: 100%;
 }
 
 .yellow {
   grid-area: yellow;
-  background-color: yellow;
+  background-color: #ffff00;
   border-top-right-radius: 100%;
 }
 
