@@ -2,37 +2,49 @@
   margin: 0;
   padding: 0;
   border: 0;
-  color:#F3F3F2;
 }
 
-header {
-  background-color: #161815;
-  height: 45rem;
-  background-image: url("./images/center_ufba.png");
-  background-position: center;
-  background-size: cover;
-  background-size: 100% 100%;
+.main-game {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 224, 255);
 }
 
-h1 {
-  text-align: center;
-  font-family: 'Jost', sans-serif;
+.genius {
+  display: grid;
+  grid-template-areas: 'blue yellow'
+   'green red';
+  grid-gap: 10px;
+  width: 55%;
+  height: 80%;
+  border: 1px solid #F3F3F3;
+  background-color: #F3F3F3;
+  border-radius: 100%;
 }
 
-#bacharelado {
-  font-size: 4.6rem;
-  text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+.yellow {
+  grid-area: yellow;
+  background-color: yellow;
+  border-top-right-radius: 100%;
 }
 
-#ufba {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-  font-size: 4rem;
-  font-weight: 400;
-  font-family: 'ZCOOL XiaoWei', serif;
-  margin-bottom: 1rem;
+.blue {
+  grid-area: blue;
+  background-color: blue;
+  border-top-left-radius: 100%;
 }
 
+.green {
+  grid-area: green;
+  background-color: green;
+  border-bottom-left-radius: 100%;
+}
+
+.red {
+  grid-area: red;
+  background-color: red;
+  border-bottom-right-radius: 100%;
+}
