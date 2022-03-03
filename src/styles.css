@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color:#F3F3F2;
+}
+
+header {
+  background-color: #161815;
+  height: 45rem;
+  background-image: url("./images/center_ufba.png");
+  background-position: center;
+  background-size: cover;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Jost', sans-serif;
+}
+
+#bacharelado {
+  font-size: 4.6rem;
+  text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+#ufba {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'ZCOOL XiaoWei', serif;
+  margin-bottom: 1rem;
+}
+
